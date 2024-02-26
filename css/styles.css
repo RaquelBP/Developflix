@@ -15,4 +15,21 @@ h2 {
   margin-bottom: 10px;
 }
 
+.genero ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.genero li {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 8px;
+}
 
+
+.genero ul li img{
+  height: 300px;
+  width: 200px;
+}
